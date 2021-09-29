@@ -1,0 +1,8 @@
+{
+  "script": {
+    "enabled": true,
+    "enableScriptNuGetReferences": true,
+    "defaultTargetFramework": "netcoreapp3.1",
+    "rspFilePath": "references.rsp"
+  }
+}
