@@ -1,17 +1,14 @@
 ﻿#load "./references/Action.csx"
-
-using Stylelabs.M.Scripting.Types.V1_0.Action;
-using Stylelabs.M.Sdk;
-using Stylelabs.M.Base.Querying.Linq;
-using Stylelabs.M.Sdk.Contracts.Base;
-
 /**------------ Include above to support intellisense on Content Hub types in editor ----------------**/
 // Script Start
 using System.Linq;
 using System.Threading.Tasks;
 using Stylelabs.M.Base.Querying;
+using Stylelabs.M.Base.Querying.Linq;
 using Stylelabs.M.Framework.Essentials.LoadOptions;
-
+using Stylelabs.M.Scripting.Types.V1_0.Action;
+using Stylelabs.M.Sdk;
+using Stylelabs.M.Sdk.Contracts.Base;
 
 await RunScriptAsync(MClient, Context);
 
